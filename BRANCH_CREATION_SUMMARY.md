@@ -6,14 +6,14 @@ All requested branches have been **created locally** in the repository:
 
 ### Base Branches
 - ✅ **main** - Already existed in remote
-- ✅ **develop** - Created from main (ad1baaf)
-- ✅ **bugfix** - Created from main (ad1baaf)  
-- ✅ **refactor** - Created from main (ad1baaf)
+- ✅ **develop** - Created from main
+- ✅ **bugfix** - Created from main
+- ✅ **refactor** - Created from main
 
 ### Feature Branches
-- ✅ **feature/weather-client** - Created from main (ad1baaf) - Most representative feature
-- ✅ **feature/setup-project** - Created from main (ad1baaf)
-- ✅ **feature/config-restclient** - Created from main (ad1baaf)
+- ✅ **feature/weather-client** - Created from main - Most representative feature
+- ✅ **feature/setup-project** - Created from main
+- ✅ **feature/config-restclient** - Created from main
 
 ## Important Note on Branch Naming
 
@@ -26,8 +26,14 @@ The original request included a base branch named `feature`, however, Git's refe
 The branches have been created locally but need to be pushed to the remote repository. Due to authentication constraints in the automated environment, this requires manual action:
 
 ### Option 1: Use the provided script
-Run the `push-branches.sh` script with appropriate Git credentials:
+The `push-branches.sh` script is already executable. Run it with appropriate Git credentials:
 ```bash
+./push-branches.sh
+```
+
+If needed, make it executable first:
+```bash
+chmod +x push-branches.sh
 ./push-branches.sh
 ```
 

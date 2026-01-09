@@ -17,7 +17,7 @@ This document describes the branch structure created for the project.
 
 ## Branch Strategy
 
-All base branches and feature branches have been created from the `main` branch (commit: ad1baaf).
+All base branches and feature branches have been created from the `main` branch at the time of branch creation.
 
 ### Note on Branch Naming
 
